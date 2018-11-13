@@ -1,0 +1,107 @@
+"*":
+  Zen:
+    fullscreen: false
+    tabs: "multiple"
+  "atom-beautify":
+    js: {}
+  "atom-material-ui":
+    colors:
+      abaseColor: "#65920c"
+      accentColor: "#3e00b7"
+      genAccent: true
+      predefinedColor: "Amber"
+    fontSize: 16
+    fonts:
+      fontSize: 18
+    tabs:
+      compactTabs: true
+      noTabMinWidth: true
+      tintedTabBar: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+  "atom-shell-commands": {}
+  "city-lights-ui":
+    fontSize: 15
+    showTabsInTreeView: true
+  core:
+    disabledPackages: [
+      "atom-live-grammar-reload"
+      "Sublime-Style-Column-Selection"
+      "Zen"
+      "atom-shell-commands"
+      "atom-ternjs"
+      "git-plus"
+      "grammar-live-reload"
+      "language-business-rules"
+      "language-docker"
+      "atom-sync"
+      "busy-signal"
+      "language-powershell"
+      "language-java"
+    ]
+    fileSystemWatcher: "experimental"
+    packagesWithKeymapsDisabled: []
+    projectHome: "/Users/admin/projects"
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    titleBar: "custom-inset"
+    uriHandlerRegistration: "always"
+  editor:
+    fontFamily: "Source Code Pro"
+    fontSize: 19
+  "exception-reporting":
+    userId: "79aef7c3-7f60-41bb-8e2f-a5cfd7e05e69"
+  "grammar-live-reload":
+    enabled: true
+    grammarsPackageName: "language-business-rules"
+  "linter-eslint": {}
+  "linter-ui-default":
+    showPanel: true
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "one-dark-ui":
+    fontSize: 14
+    stickyHeaders: true
+  teletype:
+    dev:
+      pusherKey: "8b37b9d11e3c10282b79"
+  "tree-view":
+    fontSize: 16
+  welcome:
+    showOnStartup: false
+".br.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#%^&*|+=[]{}`?-…"
+"atom-shell-commands":
+  commands: [
+    {
+      arguments: [
+        "{FileName}"
+        "-o"
+        "{FileNameNoExt}.exe"
+      ]
+      command: "d:/dev/mingw/bin/gcc"
+      name: "compile"
+      options:
+        cwd: "{FileDir}"
+        keymap: "ctrl-2"
+    }
+    {
+      arguments: [
+        "{FileName}"
+      ]
+      command: "/Users/admin/n/bin/node"
+      name: "Run"
+      options:
+        cwd: "{FileDir}"
+        keymap: "ctrl-3"
+    }
+  ]

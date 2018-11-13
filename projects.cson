@@ -1,0 +1,18 @@
+[
+  {
+    title: "Rtsp Stream Connect"
+    group: "RTSP"
+    paths: [
+      "/Users/admin/Dropbox/Sublime/Projects/rtsp-stream-connect"
+      "/Users/admin/Dropbox/Sublime/Projects/rtsp-stream"
+    ]
+  }
+  {
+    title: "Atom Start Ndb"
+    paths: [
+      "/Users/admin/github/atom-start-ndb"
+    ]
+    icon: "icon-chevron-left"
+    color: "#222222"
+  }
+]

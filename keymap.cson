@@ -1,0 +1,5 @@
+'atom-text-editor':
+  'ctrl-alt-up': 'next-occurrence:prev'
+  'ctrl-alt-down': 'next-occurrence:next'
+  'cmd-]': 'node-repl:toggle'
+  'cmd-enter': 'node-repl:run'
