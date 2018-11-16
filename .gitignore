@@ -1,0 +1,4 @@
+.apm
+.node-gyp
+blob-store
+compile-cache/*
